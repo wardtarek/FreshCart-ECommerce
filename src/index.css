@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  padding-inline: 20px;
+}
+/* px-5 lg:px-12 xl:px-28 */
+
+@media (min-width: 1024px) {
+  .container{
+    padding-inline: 48px;
+  }
+}
+@media (min-width: 1280px) {
+.container{
+    padding-inline: 112px;
+  }
+}
